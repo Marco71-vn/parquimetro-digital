@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parquimetro</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Parquimetro Digital</h1>
+      <label for="valor">Insira o valor (R$):</label>
+      <input type="number" id="valor" step="0,01" placeholder="Ex: 2.50" />
+      <button id="brnCalcular">Confirmar Pagamento</button>
+
+      <div id="resultado">
+        <p id="msgTempo">Tempo: --</p>
+        <p id="msgTroco">Troco: --</p>
+      </div>
+    </div>
+    <script src="JS.js"></script>
+  </body>
+</html>
